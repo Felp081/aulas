@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Display e Visibilidade</title>
+        <style>
+            span.exp-5{
+                display: block;
+            }
+            P{
+                color:  red ;
+            }
+            P.exp-1{
+                display: block;
+            }
+            p.exp-2{
+                display: inline;
+            }
+            p.exp-3{
+                display: inline-block;
+            
+            }
+
+                        
+            
+            .aparecer:hover p.exp-4{
+                display: block;
+            }
+            p.exp-4{
+                display: none;
+            }    
+        </style>
+    </head>
+    <body>
+        <span>
+            texto de exemplo do span sem o block 
+        </span>
+        <span class="exp-5">
+            texto de exemplo do span com o block
+        </span>
+        <p class="exp-1">
+            PALAVRA
+        </p>
+        <div>
+            AQUI VEM SEU TEXTO
+        <p class="exp-2">
+            PALAVRA
+        </p>
+        AQUI VEM SEU TEXTO
+        </div>
+        <div>
+            AQUI VEM SEU TEXTO(exemplo2)
+        <p class="exp-3">
+            PALAVRA
+        </p>
+        AQUI VEM SEU TEXTO(exemplo2)
+        </div>
+        <div class="aparecer">
+            APARECER
+        <p class="exp-4">
+            TEXTO DA DIV  ESCONDIDO.
+        </p>
+        </div>
+    </body>
+</html>
